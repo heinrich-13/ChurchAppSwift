@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003475471715C79534A569A1DE745889 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7357CDCE7E9FFA4D826B1EFB19067FA8 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCBB4361672C8994784F0CD9AFC876D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C64359249BE20D2CF6FA020FCDC4B60 /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE4AD1C5B486C6A911076AE5A54B5A3 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27274476A23570ED86D4CD618E78F4BC /* EventData.swift */; };
+		0EC6088D5B382CB6AB8C5B7C65AE8108 /* Pods-ChurchApp-ChurchAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D129939E14515C77FC8ADA6192B20 /* Pods-ChurchApp-ChurchAppUITests-dummy.m */; };
+		1152D5AAA7732A77B80CF0E33A68351C /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47358942C3B492226E27CE614311601A /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1182A86C7D0C4284876F21C2531CD38A /* DayViewCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70023EC19C94178CDED27E2D2562B4B3 /* DayViewCellLayout.swift */; };
+		1A36B9F958F9E49C2E921DD2648D36AA /* WeekView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580D37D0FAD4437483616242F7E9B981 /* WeekView.xib */; };
+		1DFDB40C632C219E87250A024624B4F9 /* Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCADD60F6C683BFD1A7A88A96081F96 /* Customization.swift */; };
+		1FF421C714EDBE044E5EEB1E0C6A8571 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA01C10483C775F552C53943425EB7E7 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22432EAC46860E00F5F711D2774C07DC /* DayViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832DAF378C5894C0CBC6881A6C8B7AD /* DayViewCell.swift */; };
+		24E5EE988A4BD7C15B55708C6D88AE04 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46DFB82FD889EA6723AB76ABA4A2FE /* FSCalendarStickyHeader.m */; };
+		29FE11344946FBEC27A9659D10BE5477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		2F5D6EC580A12E05BF5D78CCAEACDA6D /* Pods-ChurchAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE34FB325BC3A42C2B851B956B82716 /* Pods-ChurchAppTests-dummy.m */; };
+		3333B56A64957D757099C9945DBEB943 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B420D70DED8A3B0833F3F83AE4CAF2 /* Constants.swift */; };
+		3960120DF8907DA574823ACE7ED96076 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C25049E38C80092CA7D3F888788F5 /* FSCalendarWeekdayView.m */; };
+		39F986157716D5214013E395BDFA237A /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD38987E172FA97BC1941308C97AFC3 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4E56584545A9F057D6A39565EEBE81 /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96B7D5C61B3C58E42B284797555023 /* FSCalendar-dummy.m */; };
+		4643DA364A3E80706B89D53043890B4D /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0015E49F1DDB1EBE6680CA0E2E66E711 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4683418880504CD2212FE56C4F1E8F80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		4C1B22E4E1FF4D05992AE40EB717EC2B /* EventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B934E76E4D16431D334ED032E6782E /* EventView.xib */; };
+		4EA1322E310669FA78DBF725723B345C /* EventDataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492553BDCA764DEA65C9B5983E2E1AE /* EventDataArray.swift */; };
+		4EC9E26EE87569C1B51B6DFF20700772 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6DE42A75AA8CBDBFD2C3C7494FC641 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517401598963228D9DE8E2AD3B605BE3 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1237F6E336AD904201B8FD940CC1922 /* Util.swift */; };
+		517DF7507FDB12DBF9BA9D1536EDCC4F /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7961064FC1031E07DC345E49B742D1C7 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E663C21AC7D06C69B5DFC1D99EF0D3 /* ZoomOffsetPreservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCCB89B5D521C430C5A729879E3BB0 /* ZoomOffsetPreservation.swift */; };
+		5A75EBBD3B5F72029BD0BB3D33FE63CB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FD38745F650A2E65F55E4FD5FEB346 /* Extensions.swift */; };
+		5F847123FA3D224722CE24317DCEF968 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D37252869D0BB25E2E38C2CEA49940 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6040741383F6F8F6979D6C547230C132 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450CE9DA6E002599D2DF2859FF7E5075 /* FSCalendarSeparatorDecorationView.m */; };
+		60CFDC4002EA677B53ECC413F67C149D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		6201BB85A0AAF8FA6C4771308917BAB2 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2B2DFA26C762002E2EC5D030713FE /* FSCalendarTransitionCoordinator.m */; };
+		629607D5F2F1CE49AD624B49F4674707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		62FFC4B2AA010A5445E5D9D6294C62B6 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C97167CFC9980C17B3C8C4065C0F452 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63732BE4C199AB606465F30C326A8326 /* DayDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0D57D04F6145774028A42377B056E /* DayDate.swift */; };
+		6381B87E5967DA5A60524938ACC89B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		6DCF6F2A00DA4D32535EB01AE34F3563 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEC1D96B929D186F59DF4ECD08249B3 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7193199B05999D3933BD77DA9674E5C8 /* HourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB634F4356F8E61C07959A0D86FB9E /* HourLabel.swift */; };
+		74340052A3CD15A02A87D8D651CB8AB8 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9C221800E01DB8C3BE8164203B2D71 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752DBFCDD74504EEA558FCD691F6D548 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FFA722953670218D413B5B97553F92 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E98902CA894CFE1F54E7934B24B0B37 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F52394C9AC171152FA7BE4D2C2393A /* FSCalendarCollectionView.m */; };
+		7FDEAD728DF7397DAEE4237F07AD5A70 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D866FCC00EE30A8A13B8D5DC88D3B5 /* FSCalendarHeaderView.m */; };
+		816A179F56AA41320D9AB57EDB21B529 /* QVRWeekView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 445AEFB7EF46126E3911C3658CD95495 /* QVRWeekView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC76114603BC4D6BA0A4ACE807A0E57 /* HourSideBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44E592B99AF40068C27343B6E471C3C /* HourSideBarView.xib */; };
+		8D5833379E9F51BFEEA066AA1C4A25A0 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB5DC7BC6F24A3AF3CD7E56BE64BE6 /* FSCalendarConstants.m */; };
+		A550F7F30921E5FFE67A755D67DA7683 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4210085AA1CFF567BF6EDBA7198455 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8BE3E34433E01344D14CE8207DA0C1 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BDC2BE6D9047A2764F262D7506964 /* Period.swift */; };
+		B62E32FBEAA7A96C79CA0B868EA587A6 /* DayScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F10FACEE51E10E1B3A2A788727B501 /* DayScrollView.swift */; };
+		BC0B2FA367074EAF985420BE965303D3 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 9621D9BF114A7809DD8F9FF8209FD17A /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1A04CE0A9851F3C003ECD156BE95AC /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4F8B42ABE2EF2580E947E03C814B1B /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17CF6C18DAC9307799F1D7972965EDF /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2813A5FAAB42FEC6FFCCD501D7615E29 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6ED706364847164CB566CEA1A6FFDD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		C7ACD835AAE2936FB6B623084612825D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 611B9F8BAFEFE082D67AE3F425037CE4 /* FSCalendarExtensions.m */; };
+		C9FA428953A595B98D05E27B76CA60EF /* QVRWeekView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 297BDA549449F6602529B2A1B5B72610 /* QVRWeekView-dummy.m */; };
+		CE132491B81D44BB6B692C3F72FBC980 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0079B69122060A8C262FEB50B705E487 /* FSCalendarCollectionViewLayout.m */; };
+		CF079D457FEA8EB54BD91C550F54A0A3 /* DateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB79BEB643A9EB57EE82373270EA1C /* DateSupport.swift */; };
+		CF10A50704D5CF6F07D5949BA4AB3EAB /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C90334E39E3278E77884D9C2C3DD4 /* FSCalendarDelegationFactory.m */; };
+		D04452C2EA6F6B11FF3E12AA3465DB4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		D6A9DF50431AB5F5E7E6B6A8B10395B6 /* HourSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0229667A4E34B2B748B1BDAD0D25F3E /* HourSideBarView.swift */; };
+		D85590104AEA17EE646A0307DA538349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		DA05826E82277D221545AE2F131C422D /* Pods-ChurchApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC70E32B05FBF6E9D3AAFF6E5F7E3821 /* Pods-ChurchApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8C57AE00C5071E96540C110964E1BD /* DayCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A71180D863C0CEC3DDE819ACECED3 /* DayCollectionView.swift */; };
+		E11220C77D9BB217D63867401FF624F6 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A242CEB0B73485F4C714391A9FEC7 /* FSCalendarCell.m */; };
+		E1D659B936D1CC3309177616AEC8318F /* Pods-ChurchApp-ChurchAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C3DE26F01BFD743FBEBA2463F4FE95 /* Pods-ChurchApp-ChurchAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53DD07DFCDD2241779DBAAE71E77032 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EDF47E8F31F70D6F2E907BE7DA6AD0 /* FSCalendarDelegationProxy.m */; };
+		E68A8ED4DEDC08CDB73EBAE31327FBF9 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CDCFFE859734380C141602FE3FD32 /* WeekView.swift */; };
+		EECC4B6E20FCC27564AE2ADAE8240F09 /* EventLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E02896A69D25EA06A9319853C5763E9 /* EventLayer.swift */; };
+		F1A18B1AFABEA67C5FC0D2EE399D277E /* Pods-ChurchAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2CA952539592AF65A7175051A881CF /* Pods-ChurchAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B9720240D5609A1DE32B8350FE0B5B /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D855FA966D029E231AF996D61524B52 /* FSCalendarCalculator.m */; };
+		F3F18A1FEC8212A61301637E40558A13 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0F560D7A2377D91DBCC25B2E0A8E46 /* FSCalendarAppearance.m */; };
+		F7C20C67D0D5A1C73A0A057268A719C1 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FCEC5F36077B72F808885E74E87A1 /* FSCalendar.m */; };
+		F92DC11B858E21A7A7E36994DE172688 /* Pods-ChurchApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F66D3A125D90094FC126CB49335AD /* Pods-ChurchApp-dummy.m */; };
+		FC21CA1DC478779110989D7007D4AA68 /* FrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18EF53BBBB909D4FE9B2C5522A079 /* FrameCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266BED9730C6A744DFEE1CABED79D908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6409EB8885DE18B9373C8034E4E1DA51;
+			remoteInfo = QVRWeekView;
+		};
+		544D2E83637B9E1ED7F328BD8A11F1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		ADBCFB2B3DDFD7BA672E988E66233F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6409EB8885DE18B9373C8034E4E1DA51;
+			remoteInfo = QVRWeekView;
+		};
+		B47851470D09978C6912BCF1BBA4BFCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		C12A51FEABAD1A1ADDA49BEB4F66A526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED505122F6573CCB0185EF9D307576D3;
+			remoteInfo = "Pods-ChurchApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0015E49F1DDB1EBE6680CA0E2E66E711 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		0079B69122060A8C262FEB50B705E487 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		02D866FCC00EE30A8A13B8D5DC88D3B5 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		0492553BDCA764DEA65C9B5983E2E1AE /* EventDataArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventDataArray.swift; path = QVRWeekView/Classes/Common/EventDataArray.swift; sourceTree = "<group>"; };
+		07117FC484639B1E7543E43E7314A8A1 /* Pods-ChurchAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChurchAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0AE60867F05C41C6DDCB699E12FB3B68 /* Pods-ChurchApp-ChurchAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChurchApp-ChurchAppUITests"; path = Pods_ChurchApp_ChurchAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D107A61A52CABD9F294838CFFAB6509 /* Pods-ChurchApp-ChurchAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChurchApp-ChurchAppUITests-Info.plist"; sourceTree = "<group>"; };
+		0D8A920CB2007DA05515EB5EC14F4C28 /* QVRWeekView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QVRWeekView.modulemap; sourceTree = "<group>"; };
+		0DFCCB89B5D521C430C5A729879E3BB0 /* ZoomOffsetPreservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomOffsetPreservation.swift; path = QVRWeekView/Classes/Common/ZoomOffsetPreservation.swift; sourceTree = "<group>"; };
+		16F52394C9AC171152FA7BE4D2C2393A /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		1C97167CFC9980C17B3C8C4065C0F452 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		1CFB79BEB643A9EB57EE82373270EA1C /* DateSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateSupport.swift; path = QVRWeekView/Classes/Common/DateSupport.swift; sourceTree = "<group>"; };
+		1E6DAE32B81C2FEF1C981282C30B0FE8 /* Pods-ChurchAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChurchAppTests-Info.plist"; sourceTree = "<group>"; };
+		27274476A23570ED86D4CD618E78F4BC /* EventData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventData.swift; path = QVRWeekView/Classes/Common/EventData.swift; sourceTree = "<group>"; };
+		2813A5FAAB42FEC6FFCCD501D7615E29 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		297BDA549449F6602529B2A1B5B72610 /* QVRWeekView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QVRWeekView-dummy.m"; sourceTree = "<group>"; };
+		2B4210085AA1CFF567BF6EDBA7198455 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		2B8FCEC5F36077B72F808885E74E87A1 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		2C4C25049E38C80092CA7D3F888788F5 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		2F81168DEC3C4EC3C96DBAB0E18DC3C6 /* Pods-ChurchAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChurchAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3489069864C725B3690D99AF1BBAFE08 /* Pods-ChurchApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChurchApp-Info.plist"; sourceTree = "<group>"; };
+		3832DAF378C5894C0CBC6881A6C8B7AD /* DayViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayViewCell.swift; path = QVRWeekView/Classes/Views/DayViewCell.swift; sourceTree = "<group>"; };
+		38C18EF53BBBB909D4FE9B2C5522A079 /* FrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCalculator.swift; path = QVRWeekView/Classes/Common/FrameCalculator.swift; sourceTree = "<group>"; };
+		38FE860C611663F72EDD47B342BB2E11 /* Pods-ChurchApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChurchApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BEB634F4356F8E61C07959A0D86FB9E /* HourLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HourLabel.swift; path = QVRWeekView/Classes/Common/HourLabel.swift; sourceTree = "<group>"; };
+		3FF83701BE3511F1A36179255FF2F487 /* FSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.release.xcconfig; sourceTree = "<group>"; };
+		40334DD2E6EADEDCF3CB6DD3F6FC0782 /* Pods-ChurchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChurchApp.release.xcconfig"; sourceTree = "<group>"; };
+		4189382A6294A421493520A495CECEBC /* QVRWeekView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QVRWeekView-prefix.pch"; sourceTree = "<group>"; };
+		419A22CA24E258217FE659E4A2D4D2BA /* QVRWeekView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QVRWeekView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445AEFB7EF46126E3911C3658CD95495 /* QVRWeekView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QVRWeekView-umbrella.h"; sourceTree = "<group>"; };
+		450CE9DA6E002599D2DF2859FF7E5075 /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		458B4AD4F7BB38A1540F4E526ED1D408 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		462F21D9B7F1F96679A9D7CDFEECF955 /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		47358942C3B492226E27CE614311601A /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F0BDC2BE6D9047A2764F262D7506964 /* Period.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Period.swift; path = QVRWeekView/Classes/Common/Period.swift; sourceTree = "<group>"; };
+		53C3DE26F01BFD743FBEBA2463F4FE95 /* Pods-ChurchApp-ChurchAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChurchApp-ChurchAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		557B87026180891079927E827C620553 /* FSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCalendar-Info.plist"; sourceTree = "<group>"; };
+		569A242CEB0B73485F4C714391A9FEC7 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		580D37D0FAD4437483616242F7E9B981 /* WeekView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WeekView.xib; path = QVRWeekView/Classes/Xibs/WeekView.xib; sourceTree = "<group>"; };
+		59D26BFBB6EC27A64144AC802ED8833D /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		59FD38745F650A2E65F55E4FD5FEB346 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = QVRWeekView/Classes/Common/Extensions.swift; sourceTree = "<group>"; };
+		5F46DFB82FD889EA6723AB76ABA4A2FE /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		5F641D7AB7F4877A8C80CC41BA043A3C /* Pods-ChurchApp-ChurchAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChurchApp-ChurchAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		611B9F8BAFEFE082D67AE3F425037CE4 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		623F0ADEB300AD375C72A820704C6DF3 /* QVRWeekView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVRWeekView.release.xcconfig; sourceTree = "<group>"; };
+		62D2B2DFA26C762002E2EC5D030713FE /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		66EDF47E8F31F70D6F2E907BE7DA6AD0 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		670CACD8D04EEFABDC4D87D23652346C /* Pods-ChurchApp-ChurchAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChurchApp-ChurchAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C64359249BE20D2CF6FA020FCDC4B60 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		6D2BE3748A3C87800A757ABF9E580289 /* Pods-ChurchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChurchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2CA952539592AF65A7175051A881CF /* Pods-ChurchAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChurchAppTests-umbrella.h"; sourceTree = "<group>"; };
+		6D855FA966D029E231AF996D61524B52 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		70023EC19C94178CDED27E2D2562B4B3 /* DayViewCellLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayViewCellLayout.swift; path = QVRWeekView/Classes/Common/DayViewCellLayout.swift; sourceTree = "<group>"; };
+		71323B420D8CF86B6E6A4B9CEB0B8CB9 /* Pods-ChurchAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChurchAppTests.modulemap"; sourceTree = "<group>"; };
+		7357CDCE7E9FFA4D826B1EFB19067FA8 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		7961064FC1031E07DC345E49B742D1C7 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		7B0F560D7A2377D91DBCC25B2E0A8E46 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		7DE34FB325BC3A42C2B851B956B82716 /* Pods-ChurchAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChurchAppTests-dummy.m"; sourceTree = "<group>"; };
+		7E02896A69D25EA06A9319853C5763E9 /* EventLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventLayer.swift; path = QVRWeekView/Classes/Common/EventLayer.swift; sourceTree = "<group>"; };
+		7F0C90334E39E3278E77884D9C2C3DD4 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		834CDCFFE859734380C141602FE3FD32 /* WeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekView.swift; path = QVRWeekView/Classes/Views/WeekView.swift; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		92B934E76E4D16431D334ED032E6782E /* EventView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EventView.xib; path = QVRWeekView/Classes/Xibs/EventView.xib; sourceTree = "<group>"; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9621D9BF114A7809DD8F9FF8209FD17A /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		9672F9FA0873CC8D8FFA23A02EFBB8B7 /* Pods-ChurchApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChurchApp"; path = Pods_ChurchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FFA722953670218D413B5B97553F92 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E078DB9561568443ED6FDBF2CD689E2 /* Pods-ChurchApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChurchApp-frameworks.sh"; sourceTree = "<group>"; };
+		9F2A71180D863C0CEC3DDE819ACECED3 /* DayCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayCollectionView.swift; path = QVRWeekView/Classes/Views/DayCollectionView.swift; sourceTree = "<group>"; };
+		9F353686992FF477F372319AF1E08E77 /* Pods-ChurchAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChurchAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FD38987E172FA97BC1941308C97AFC3 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A4D37252869D0BB25E2E38C2CEA49940 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		A86108D2A601BAA5D0D67B30EDF526FB /* Pods-ChurchApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChurchApp.modulemap"; sourceTree = "<group>"; };
+		A9B420D70DED8A3B0833F3F83AE4CAF2 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = QVRWeekView/Classes/Common/Constants.swift; sourceTree = "<group>"; };
+		AA4F8B42ABE2EF2580E947E03C814B1B /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		AC6DE42A75AA8CBDBFD2C3C7494FC641 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		ACAF3B20DEB87D5B4D3523FE8A1757F0 /* QVRWeekView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QVRWeekView.debug.xcconfig; sourceTree = "<group>"; };
+		B0229667A4E34B2B748B1BDAD0D25F3E /* HourSideBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HourSideBarView.swift; path = QVRWeekView/Classes/Views/HourSideBarView.swift; sourceTree = "<group>"; };
+		B1568CE1414C327ECA8CD403E5912F61 /* Pods-ChurchAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChurchAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B44E592B99AF40068C27343B6E471C3C /* HourSideBarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HourSideBarView.xib; path = QVRWeekView/Classes/Xibs/HourSideBarView.xib; sourceTree = "<group>"; };
+		BC70E32B05FBF6E9D3AAFF6E5F7E3821 /* Pods-ChurchApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChurchApp-umbrella.h"; sourceTree = "<group>"; };
+		BD9C221800E01DB8C3BE8164203B2D71 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		CA01C10483C775F552C53943425EB7E7 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		CDA0D57D04F6145774028A42377B056E /* DayDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayDate.swift; path = QVRWeekView/Classes/Common/DayDate.swift; sourceTree = "<group>"; };
+		CDEC1D96B929D186F59DF4ECD08249B3 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		D1237F6E336AD904201B8FD940CC1922 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = QVRWeekView/Classes/Common/Util.swift; sourceTree = "<group>"; };
+		D92D129939E14515C77FC8ADA6192B20 /* Pods-ChurchApp-ChurchAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChurchApp-ChurchAppUITests-dummy.m"; sourceTree = "<group>"; };
+		DDCADD60F6C683BFD1A7A88A96081F96 /* Customization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customization.swift; path = QVRWeekView/Classes/Common/Customization.swift; sourceTree = "<group>"; };
+		E06F66D3A125D90094FC126CB49335AD /* Pods-ChurchApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChurchApp-dummy.m"; sourceTree = "<group>"; };
+		E14983949E0B8F9506BCDDF398799334 /* Pods-ChurchApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChurchApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3FB5DC7BC6F24A3AF3CD7E56BE64BE6 /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		E583E2FF56E1FA16D8368F2C82799CC1 /* Pods-ChurchApp-ChurchAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChurchApp-ChurchAppUITests.modulemap"; sourceTree = "<group>"; };
+		E5AC1F52B3168E347DB00187A9946469 /* Pods-ChurchAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChurchAppTests"; path = Pods_ChurchAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6669C042E5ED2EE9F7851E7B6114767 /* QVRWeekView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QVRWeekView-Info.plist"; sourceTree = "<group>"; };
+		ED960766A359A1CEA9785EEAF46517D8 /* Pods-ChurchApp-ChurchAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChurchApp-ChurchAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE96B7D5C61B3C58E42B284797555023 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		F6F10FACEE51E10E1B3A2A788727B501 /* DayScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayScrollView.swift; path = QVRWeekView/Classes/Views/DayScrollView.swift; sourceTree = "<group>"; };
+		FEFACD4E3D944C837B7D07C696AA9533 /* Pods-ChurchApp-ChurchAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChurchApp-ChurchAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FF85EE36FD32C581F99645CCED0107C3 /* Pods-ChurchApp-ChurchAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChurchApp-ChurchAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B267FB21B518964E01A58CE618360E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04452C2EA6F6B11FF3E12AA3465DB4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A96F46A5B1CC923A8DEED1DD6AB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6381B87E5967DA5A60524938ACC89B27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6D69564E44A3F76E1E99F523BCEB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE11344946FBEC27A9659D10BE5477 /* Foundation.framework in Frameworks */,
+				629607D5F2F1CE49AD624B49F4674707 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A64755C7A548C64DC56F66C1347B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CFDC4002EA677B53ECC413F67C149D /* Foundation.framework in Frameworks */,
+				C6ED706364847164CB566CEA1A6FFDD6 /* QuartzCore.framework in Frameworks */,
+				4683418880504CD2212FE56C4F1E8F80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8A273087FD2174B9ED6E86339C234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85590104AEA17EE646A0307DA538349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08792344CCA9FC46EF0E0CE731178284 /* Pods-ChurchApp */ = {
+			isa = PBXGroup;
+			children = (
+				A86108D2A601BAA5D0D67B30EDF526FB /* Pods-ChurchApp.modulemap */,
+				E14983949E0B8F9506BCDDF398799334 /* Pods-ChurchApp-acknowledgements.markdown */,
+				38FE860C611663F72EDD47B342BB2E11 /* Pods-ChurchApp-acknowledgements.plist */,
+				E06F66D3A125D90094FC126CB49335AD /* Pods-ChurchApp-dummy.m */,
+				9E078DB9561568443ED6FDBF2CD689E2 /* Pods-ChurchApp-frameworks.sh */,
+				3489069864C725B3690D99AF1BBAFE08 /* Pods-ChurchApp-Info.plist */,
+				BC70E32B05FBF6E9D3AAFF6E5F7E3821 /* Pods-ChurchApp-umbrella.h */,
+				6D2BE3748A3C87800A757ABF9E580289 /* Pods-ChurchApp.debug.xcconfig */,
+				40334DD2E6EADEDCF3CB6DD3F6FC0782 /* Pods-ChurchApp.release.xcconfig */,
+			);
+			name = "Pods-ChurchApp";
+			path = "Target Support Files/Pods-ChurchApp";
+			sourceTree = "<group>";
+		};
+		0B1928381CB53922931E9872D165406F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92B934E76E4D16431D334ED032E6782E /* EventView.xib */,
+				B44E592B99AF40068C27343B6E471C3C /* HourSideBarView.xib */,
+				580D37D0FAD4437483616242F7E9B981 /* WeekView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F75F5ACCA23BEEFEAD50433ED4EDC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
+				9672F9FA0873CC8D8FFA23A02EFBB8B7 /* Pods-ChurchApp */,
+				0AE60867F05C41C6DDCB699E12FB3B68 /* Pods-ChurchApp-ChurchAppUITests */,
+				E5AC1F52B3168E347DB00187A9946469 /* Pods-ChurchAppTests */,
+				419A22CA24E258217FE659E4A2D4D2BA /* QVRWeekView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217C9B2823B2CF57CFDA77BE3D01F87A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59D26BFBB6EC27A64144AC802ED8833D /* FSCalendar.modulemap */,
+				EE96B7D5C61B3C58E42B284797555023 /* FSCalendar-dummy.m */,
+				557B87026180891079927E827C620553 /* FSCalendar-Info.plist */,
+				458B4AD4F7BB38A1540F4E526ED1D408 /* FSCalendar-prefix.pch */,
+				CA01C10483C775F552C53943425EB7E7 /* FSCalendar-umbrella.h */,
+				462F21D9B7F1F96679A9D7CDFEECF955 /* FSCalendar.debug.xcconfig */,
+				3FF83701BE3511F1A36179255FF2F487 /* FSCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		5461068B9128D511072A42AACC6D2483 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2B4210085AA1CFF567BF6EDBA7198455 /* FSCalendar.h */,
+				2B8FCEC5F36077B72F808885E74E87A1 /* FSCalendar.m */,
+				9621D9BF114A7809DD8F9FF8209FD17A /* FSCalendarAppearance.h */,
+				7B0F560D7A2377D91DBCC25B2E0A8E46 /* FSCalendarAppearance.m */,
+				1C97167CFC9980C17B3C8C4065C0F452 /* FSCalendarCalculator.h */,
+				6D855FA966D029E231AF996D61524B52 /* FSCalendarCalculator.m */,
+				7357CDCE7E9FFA4D826B1EFB19067FA8 /* FSCalendarCell.h */,
+				569A242CEB0B73485F4C714391A9FEC7 /* FSCalendarCell.m */,
+				CDEC1D96B929D186F59DF4ECD08249B3 /* FSCalendarCollectionView.h */,
+				16F52394C9AC171152FA7BE4D2C2393A /* FSCalendarCollectionView.m */,
+				0015E49F1DDB1EBE6680CA0E2E66E711 /* FSCalendarCollectionViewLayout.h */,
+				0079B69122060A8C262FEB50B705E487 /* FSCalendarCollectionViewLayout.m */,
+				99FFA722953670218D413B5B97553F92 /* FSCalendarConstants.h */,
+				E3FB5DC7BC6F24A3AF3CD7E56BE64BE6 /* FSCalendarConstants.m */,
+				2813A5FAAB42FEC6FFCCD501D7615E29 /* FSCalendarDelegationFactory.h */,
+				7F0C90334E39E3278E77884D9C2C3DD4 /* FSCalendarDelegationFactory.m */,
+				9FD38987E172FA97BC1941308C97AFC3 /* FSCalendarDelegationProxy.h */,
+				66EDF47E8F31F70D6F2E907BE7DA6AD0 /* FSCalendarDelegationProxy.m */,
+				AC6DE42A75AA8CBDBFD2C3C7494FC641 /* FSCalendarDynamicHeader.h */,
+				A4D37252869D0BB25E2E38C2CEA49940 /* FSCalendarExtensions.h */,
+				611B9F8BAFEFE082D67AE3F425037CE4 /* FSCalendarExtensions.m */,
+				6C64359249BE20D2CF6FA020FCDC4B60 /* FSCalendarHeaderView.h */,
+				02D866FCC00EE30A8A13B8D5DC88D3B5 /* FSCalendarHeaderView.m */,
+				47358942C3B492226E27CE614311601A /* FSCalendarSeparatorDecorationView.h */,
+				450CE9DA6E002599D2DF2859FF7E5075 /* FSCalendarSeparatorDecorationView.m */,
+				AA4F8B42ABE2EF2580E947E03C814B1B /* FSCalendarStickyHeader.h */,
+				5F46DFB82FD889EA6723AB76ABA4A2FE /* FSCalendarStickyHeader.m */,
+				BD9C221800E01DB8C3BE8164203B2D71 /* FSCalendarTransitionCoordinator.h */,
+				62D2B2DFA26C762002E2EC5D030713FE /* FSCalendarTransitionCoordinator.m */,
+				7961064FC1031E07DC345E49B742D1C7 /* FSCalendarWeekdayView.h */,
+				2C4C25049E38C80092CA7D3F888788F5 /* FSCalendarWeekdayView.m */,
+				217C9B2823B2CF57CFDA77BE3D01F87A /* Support Files */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		6ADBE8B93D4FAB6D3DFE5A0D68B29949 /* QVRWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				A9B420D70DED8A3B0833F3F83AE4CAF2 /* Constants.swift */,
+				DDCADD60F6C683BFD1A7A88A96081F96 /* Customization.swift */,
+				1CFB79BEB643A9EB57EE82373270EA1C /* DateSupport.swift */,
+				9F2A71180D863C0CEC3DDE819ACECED3 /* DayCollectionView.swift */,
+				CDA0D57D04F6145774028A42377B056E /* DayDate.swift */,
+				F6F10FACEE51E10E1B3A2A788727B501 /* DayScrollView.swift */,
+				3832DAF378C5894C0CBC6881A6C8B7AD /* DayViewCell.swift */,
+				70023EC19C94178CDED27E2D2562B4B3 /* DayViewCellLayout.swift */,
+				27274476A23570ED86D4CD618E78F4BC /* EventData.swift */,
+				0492553BDCA764DEA65C9B5983E2E1AE /* EventDataArray.swift */,
+				7E02896A69D25EA06A9319853C5763E9 /* EventLayer.swift */,
+				59FD38745F650A2E65F55E4FD5FEB346 /* Extensions.swift */,
+				38C18EF53BBBB909D4FE9B2C5522A079 /* FrameCalculator.swift */,
+				3BEB634F4356F8E61C07959A0D86FB9E /* HourLabel.swift */,
+				B0229667A4E34B2B748B1BDAD0D25F3E /* HourSideBarView.swift */,
+				4F0BDC2BE6D9047A2764F262D7506964 /* Period.swift */,
+				D1237F6E336AD904201B8FD940CC1922 /* Util.swift */,
+				834CDCFFE859734380C141602FE3FD32 /* WeekView.swift */,
+				0DFCCB89B5D521C430C5A729879E3BB0 /* ZoomOffsetPreservation.swift */,
+				0B1928381CB53922931E9872D165406F /* Resources */,
+				95B6A6ACE04DC1611F6DD0E287C5B424 /* Support Files */,
+			);
+			path = QVRWeekView;
+			sourceTree = "<group>";
+		};
+		84636D7CB46F62CCF62C0952C548D181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5461068B9128D511072A42AACC6D2483 /* FSCalendar */,
+				6ADBE8B93D4FAB6D3DFE5A0D68B29949 /* QVRWeekView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95B6A6ACE04DC1611F6DD0E287C5B424 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D8A920CB2007DA05515EB5EC14F4C28 /* QVRWeekView.modulemap */,
+				297BDA549449F6602529B2A1B5B72610 /* QVRWeekView-dummy.m */,
+				E6669C042E5ED2EE9F7851E7B6114767 /* QVRWeekView-Info.plist */,
+				4189382A6294A421493520A495CECEBC /* QVRWeekView-prefix.pch */,
+				445AEFB7EF46126E3911C3658CD95495 /* QVRWeekView-umbrella.h */,
+				ACAF3B20DEB87D5B4D3523FE8A1757F0 /* QVRWeekView.debug.xcconfig */,
+				623F0ADEB300AD375C72A820704C6DF3 /* QVRWeekView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QVRWeekView";
+			sourceTree = "<group>";
+		};
+		961FF32DA72B12FC0B7CF5304EAE8808 /* Pods-ChurchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				71323B420D8CF86B6E6A4B9CEB0B8CB9 /* Pods-ChurchAppTests.modulemap */,
+				B1568CE1414C327ECA8CD403E5912F61 /* Pods-ChurchAppTests-acknowledgements.markdown */,
+				2F81168DEC3C4EC3C96DBAB0E18DC3C6 /* Pods-ChurchAppTests-acknowledgements.plist */,
+				7DE34FB325BC3A42C2B851B956B82716 /* Pods-ChurchAppTests-dummy.m */,
+				1E6DAE32B81C2FEF1C981282C30B0FE8 /* Pods-ChurchAppTests-Info.plist */,
+				6D2CA952539592AF65A7175051A881CF /* Pods-ChurchAppTests-umbrella.h */,
+				9F353686992FF477F372319AF1E08E77 /* Pods-ChurchAppTests.debug.xcconfig */,
+				07117FC484639B1E7543E43E7314A8A1 /* Pods-ChurchAppTests.release.xcconfig */,
+			);
+			name = "Pods-ChurchAppTests";
+			path = "Target Support Files/Pods-ChurchAppTests";
+			sourceTree = "<group>";
+		};
+		A561B5B967C8EBFCC2205B8DB957E540 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08792344CCA9FC46EF0E0CE731178284 /* Pods-ChurchApp */,
+				E212EED9653B998493DE47231C4D0032 /* Pods-ChurchApp-ChurchAppUITests */,
+				961FF32DA72B12FC0B7CF5304EAE8808 /* Pods-ChurchAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				84636D7CB46F62CCF62C0952C548D181 /* Pods */,
+				1F75F5ACCA23BEEFEAD50433ED4EDC82 /* Products */,
+				A561B5B967C8EBFCC2205B8DB957E540 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E212EED9653B998493DE47231C4D0032 /* Pods-ChurchApp-ChurchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E583E2FF56E1FA16D8368F2C82799CC1 /* Pods-ChurchApp-ChurchAppUITests.modulemap */,
+				670CACD8D04EEFABDC4D87D23652346C /* Pods-ChurchApp-ChurchAppUITests-acknowledgements.markdown */,
+				5F641D7AB7F4877A8C80CC41BA043A3C /* Pods-ChurchApp-ChurchAppUITests-acknowledgements.plist */,
+				D92D129939E14515C77FC8ADA6192B20 /* Pods-ChurchApp-ChurchAppUITests-dummy.m */,
+				FEFACD4E3D944C837B7D07C696AA9533 /* Pods-ChurchApp-ChurchAppUITests-frameworks.sh */,
+				0D107A61A52CABD9F294838CFFAB6509 /* Pods-ChurchApp-ChurchAppUITests-Info.plist */,
+				53C3DE26F01BFD743FBEBA2463F4FE95 /* Pods-ChurchApp-ChurchAppUITests-umbrella.h */,
+				ED960766A359A1CEA9785EEAF46517D8 /* Pods-ChurchApp-ChurchAppUITests.debug.xcconfig */,
+				FF85EE36FD32C581F99645CCED0107C3 /* Pods-ChurchApp-ChurchAppUITests.release.xcconfig */,
+			);
+			name = "Pods-ChurchApp-ChurchAppUITests";
+			path = "Target Support Files/Pods-ChurchApp-ChurchAppUITests";
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41DB05C4F3A0D4CED85F2C809F6F79FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816A179F56AA41320D9AB57EDB21B529 /* QVRWeekView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D914AEF49B834390563BDCCA53E7BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A18B1AFABEA67C5FC0D2EE399D277E /* Pods-ChurchAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AD668E69CA2EFE0299774369A17527 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D659B936D1CC3309177616AEC8318F /* Pods-ChurchApp-ChurchAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E103E2E79D70C059ADA8725A95ED1E03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA05826E82277D221545AE2F131C422D /* Pods-ChurchApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9900830C8DCDB380DFE67D911EBA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A550F7F30921E5FFE67A755D67DA7683 /* FSCalendar.h in Headers */,
+				1FF421C714EDBE044E5EEB1E0C6A8571 /* FSCalendar-umbrella.h in Headers */,
+				BC0B2FA367074EAF985420BE965303D3 /* FSCalendarAppearance.h in Headers */,
+				62FFC4B2AA010A5445E5D9D6294C62B6 /* FSCalendarCalculator.h in Headers */,
+				003475471715C79534A569A1DE745889 /* FSCalendarCell.h in Headers */,
+				6DCF6F2A00DA4D32535EB01AE34F3563 /* FSCalendarCollectionView.h in Headers */,
+				4643DA364A3E80706B89D53043890B4D /* FSCalendarCollectionViewLayout.h in Headers */,
+				752DBFCDD74504EEA558FCD691F6D548 /* FSCalendarConstants.h in Headers */,
+				C17CF6C18DAC9307799F1D7972965EDF /* FSCalendarDelegationFactory.h in Headers */,
+				39F986157716D5214013E395BDFA237A /* FSCalendarDelegationProxy.h in Headers */,
+				4EC9E26EE87569C1B51B6DFF20700772 /* FSCalendarDynamicHeader.h in Headers */,
+				5F847123FA3D224722CE24317DCEF968 /* FSCalendarExtensions.h in Headers */,
+				0CCBB4361672C8994784F0CD9AFC876D /* FSCalendarHeaderView.h in Headers */,
+				1152D5AAA7732A77B80CF0E33A68351C /* FSCalendarSeparatorDecorationView.h in Headers */,
+				BC1A04CE0A9851F3C003ECD156BE95AC /* FSCalendarStickyHeader.h in Headers */,
+				74340052A3CD15A02A87D8D651CB8AB8 /* FSCalendarTransitionCoordinator.h in Headers */,
+				517DF7507FDB12DBF9BA9D1536EDCC4F /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0A80925871C91B9D807A479DC9E1C8 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				FF9900830C8DCDB380DFE67D911EBA65 /* Headers */,
+				0850BAB6F37BE1286C748B584A006CC9 /* Sources */,
+				8243A64755C7A548C64DC56F66C1347B /* Frameworks */,
+				6FDC92F7E5D72E9561F44586F35A4DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52ED7D3ACB8FB2456EB4309FD8A22954 /* Pods-ChurchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43182F484845E1247EBBFD8EE43FBCF8 /* Build configuration list for PBXNativeTarget "Pods-ChurchAppTests" */;
+			buildPhases = (
+				57D914AEF49B834390563BDCCA53E7BA /* Headers */,
+				5ECC8B0CC02DA068BFE4CFFC7CE20601 /* Sources */,
+				55B267FB21B518964E01A58CE618360E /* Frameworks */,
+				A017FE8513D7AA1607877527247C2E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C9C04005CD88B20A82FB4DEB5AF8A26 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChurchAppTests";
+			productName = Pods_ChurchAppTests;
+			productReference = E5AC1F52B3168E347DB00187A9946469 /* Pods-ChurchAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6409EB8885DE18B9373C8034E4E1DA51 /* QVRWeekView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDBD7B4097FA46BD148EEDF72554A0E /* Build configuration list for PBXNativeTarget "QVRWeekView" */;
+			buildPhases = (
+				41DB05C4F3A0D4CED85F2C809F6F79FD /* Headers */,
+				B83B11FBC27238F108B25A0EEE6A4EC2 /* Sources */,
+				6A6D69564E44A3F76E1E99F523BCEB52 /* Frameworks */,
+				4221471BD293F43D92305A1CE757BD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QVRWeekView;
+			productName = QVRWeekView;
+			productReference = 419A22CA24E258217FE659E4A2D4D2BA /* QVRWeekView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A27DC186E195D58F8F87D616DEDF106F /* Pods-ChurchApp-ChurchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB921A3728F55647DBE4CACF5476748 /* Build configuration list for PBXNativeTarget "Pods-ChurchApp-ChurchAppUITests" */;
+			buildPhases = (
+				D9AD668E69CA2EFE0299774369A17527 /* Headers */,
+				821062B92E8BC4BE41AEA3DEBDCE7131 /* Sources */,
+				8B8A273087FD2174B9ED6E86339C234F /* Frameworks */,
+				8E834996997823BF8707A7A31CFDA8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EA2ECE8303D04D8BF425DA5D2948613 /* PBXTargetDependency */,
+				2E022CFC9BC4A42B54CDEACEB28DE599 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChurchApp-ChurchAppUITests";
+			productName = Pods_ChurchApp_ChurchAppUITests;
+			productReference = 0AE60867F05C41C6DDCB699E12FB3B68 /* Pods-ChurchApp-ChurchAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED505122F6573CCB0185EF9D307576D3 /* Pods-ChurchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F3684B9B345412F313FA7A1B31BE66 /* Build configuration list for PBXNativeTarget "Pods-ChurchApp" */;
+			buildPhases = (
+				E103E2E79D70C059ADA8725A95ED1E03 /* Headers */,
+				595D13D54C33A5F7B61C01379F7D25EE /* Sources */,
+				637A96F46A5B1CC923A8DEED1DD6AB9F /* Frameworks */,
+				8C48732F6817EE5AF0B11F769D62F28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54CC5F8422BFC5D9CB1B63ACFD40B913 /* PBXTargetDependency */,
+				09400A432D2F050DD877143098834418 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChurchApp";
+			productName = Pods_ChurchApp;
+			productReference = 9672F9FA0873CC8D8FFA23A02EFBB8B7 /* Pods-ChurchApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1F75F5ACCA23BEEFEAD50433ED4EDC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
+				ED505122F6573CCB0185EF9D307576D3 /* Pods-ChurchApp */,
+				A27DC186E195D58F8F87D616DEDF106F /* Pods-ChurchApp-ChurchAppUITests */,
+				52ED7D3ACB8FB2456EB4309FD8A22954 /* Pods-ChurchAppTests */,
+				6409EB8885DE18B9373C8034E4E1DA51 /* QVRWeekView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4221471BD293F43D92305A1CE757BD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B22E4E1FF4D05992AE40EB717EC2B /* EventView.xib in Resources */,
+				8AC76114603BC4D6BA0A4ACE807A0E57 /* HourSideBarView.xib in Resources */,
+				1A36B9F958F9E49C2E921DD2648D36AA /* WeekView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC92F7E5D72E9561F44586F35A4DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48732F6817EE5AF0B11F769D62F28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E834996997823BF8707A7A31CFDA8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A017FE8513D7AA1607877527247C2E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0850BAB6F37BE1286C748B584A006CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C20C67D0D5A1C73A0A057268A719C1 /* FSCalendar.m in Sources */,
+				3E4E56584545A9F057D6A39565EEBE81 /* FSCalendar-dummy.m in Sources */,
+				F3F18A1FEC8212A61301637E40558A13 /* FSCalendarAppearance.m in Sources */,
+				F1B9720240D5609A1DE32B8350FE0B5B /* FSCalendarCalculator.m in Sources */,
+				E11220C77D9BB217D63867401FF624F6 /* FSCalendarCell.m in Sources */,
+				7E98902CA894CFE1F54E7934B24B0B37 /* FSCalendarCollectionView.m in Sources */,
+				CE132491B81D44BB6B692C3F72FBC980 /* FSCalendarCollectionViewLayout.m in Sources */,
+				8D5833379E9F51BFEEA066AA1C4A25A0 /* FSCalendarConstants.m in Sources */,
+				CF10A50704D5CF6F07D5949BA4AB3EAB /* FSCalendarDelegationFactory.m in Sources */,
+				E53DD07DFCDD2241779DBAAE71E77032 /* FSCalendarDelegationProxy.m in Sources */,
+				C7ACD835AAE2936FB6B623084612825D /* FSCalendarExtensions.m in Sources */,
+				7FDEAD728DF7397DAEE4237F07AD5A70 /* FSCalendarHeaderView.m in Sources */,
+				6040741383F6F8F6979D6C547230C132 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				24E5EE988A4BD7C15B55708C6D88AE04 /* FSCalendarStickyHeader.m in Sources */,
+				6201BB85A0AAF8FA6C4771308917BAB2 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3960120DF8907DA574823ACE7ED96076 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595D13D54C33A5F7B61C01379F7D25EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92DC11B858E21A7A7E36994DE172688 /* Pods-ChurchApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECC8B0CC02DA068BFE4CFFC7CE20601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5D6EC580A12E05BF5D78CCAEACDA6D /* Pods-ChurchAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821062B92E8BC4BE41AEA3DEBDCE7131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC6088D5B382CB6AB8C5B7C65AE8108 /* Pods-ChurchApp-ChurchAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83B11FBC27238F108B25A0EEE6A4EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3333B56A64957D757099C9945DBEB943 /* Constants.swift in Sources */,
+				1DFDB40C632C219E87250A024624B4F9 /* Customization.swift in Sources */,
+				CF079D457FEA8EB54BD91C550F54A0A3 /* DateSupport.swift in Sources */,
+				DB8C57AE00C5071E96540C110964E1BD /* DayCollectionView.swift in Sources */,
+				63732BE4C199AB606465F30C326A8326 /* DayDate.swift in Sources */,
+				B62E32FBEAA7A96C79CA0B868EA587A6 /* DayScrollView.swift in Sources */,
+				22432EAC46860E00F5F711D2774C07DC /* DayViewCell.swift in Sources */,
+				1182A86C7D0C4284876F21C2531CD38A /* DayViewCellLayout.swift in Sources */,
+				0DE4AD1C5B486C6A911076AE5A54B5A3 /* EventData.swift in Sources */,
+				4EA1322E310669FA78DBF725723B345C /* EventDataArray.swift in Sources */,
+				EECC4B6E20FCC27564AE2ADAE8240F09 /* EventLayer.swift in Sources */,
+				5A75EBBD3B5F72029BD0BB3D33FE63CB /* Extensions.swift in Sources */,
+				FC21CA1DC478779110989D7007D4AA68 /* FrameCalculator.swift in Sources */,
+				7193199B05999D3933BD77DA9674E5C8 /* HourLabel.swift in Sources */,
+				D6A9DF50431AB5F5E7E6B6A8B10395B6 /* HourSideBarView.swift in Sources */,
+				AF8BE3E34433E01344D14CE8207DA0C1 /* Period.swift in Sources */,
+				C9FA428953A595B98D05E27B76CA60EF /* QVRWeekView-dummy.m in Sources */,
+				517401598963228D9DE8E2AD3B605BE3 /* Util.swift in Sources */,
+				E68A8ED4DEDC08CDB73EBAE31327FBF9 /* WeekView.swift in Sources */,
+				56E663C21AC7D06C69B5DFC1D99EF0D3 /* ZoomOffsetPreservation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09400A432D2F050DD877143098834418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QVRWeekView;
+			target = 6409EB8885DE18B9373C8034E4E1DA51 /* QVRWeekView */;
+			targetProxy = 266BED9730C6A744DFEE1CABED79D908 /* PBXContainerItemProxy */;
+		};
+		2C9C04005CD88B20A82FB4DEB5AF8A26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChurchApp";
+			target = ED505122F6573CCB0185EF9D307576D3 /* Pods-ChurchApp */;
+			targetProxy = C12A51FEABAD1A1ADDA49BEB4F66A526 /* PBXContainerItemProxy */;
+		};
+		2E022CFC9BC4A42B54CDEACEB28DE599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QVRWeekView;
+			target = 6409EB8885DE18B9373C8034E4E1DA51 /* QVRWeekView */;
+			targetProxy = ADBCFB2B3DDFD7BA672E988E66233F42 /* PBXContainerItemProxy */;
+		};
+		54CC5F8422BFC5D9CB1B63ACFD40B913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = 544D2E83637B9E1ED7F328BD8A11F1C1 /* PBXContainerItemProxy */;
+		};
+		9EA2ECE8303D04D8BF425DA5D2948613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = B47851470D09978C6912BCF1BBA4BFCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0A7EC85B3FEDDB969303ECD2A1B341E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07117FC484639B1E7543E43E7314A8A1 /* Pods-ChurchAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChurchAppTests/Pods-ChurchAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChurchAppTests/Pods-ChurchAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		236CA4A796142FF557603D83E1C5C2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED960766A359A1CEA9785EEAF46517D8 /* Pods-ChurchApp-ChurchAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B273C041B32C4CB73EB518901DCC501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F353686992FF477F372319AF1E08E77 /* Pods-ChurchAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChurchAppTests/Pods-ChurchAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChurchAppTests/Pods-ChurchAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42C44AD1D4C6F0A68406AE475495BFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF85EE36FD32C581F99645CCED0107C3 /* Pods-ChurchApp-ChurchAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B3ED23C1B8849884765CF3B3A8C1C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2BE3748A3C87800A757ABF9E580289 /* Pods-ChurchApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChurchApp/Pods-ChurchApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChurchApp/Pods-ChurchApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73FBC83DA060410357FD0C30D352B208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462F21D9B7F1F96679A9D7CDFEECF955 /* FSCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BE7D5C773F3977EF934F238B1137794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623F0ADEB300AD375C72A820704C6DF3 /* QVRWeekView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QVRWeekView/QVRWeekView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QVRWeekView/QVRWeekView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QVRWeekView/QVRWeekView.modulemap";
+				PRODUCT_MODULE_NAME = QVRWeekView;
+				PRODUCT_NAME = QVRWeekView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A160472351B46C565056074E8EAAC9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF83701BE3511F1A36179255FF2F487 /* FSCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDBCFD8C06E7059A31B07570F7A0EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAF3B20DEB87D5B4D3523FE8A1757F0 /* QVRWeekView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QVRWeekView/QVRWeekView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QVRWeekView/QVRWeekView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QVRWeekView/QVRWeekView.modulemap";
+				PRODUCT_MODULE_NAME = QVRWeekView;
+				PRODUCT_NAME = QVRWeekView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6F5ACED210EC83D44AC80D422359197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40334DD2E6EADEDCF3CB6DD3F6FC0782 /* Pods-ChurchApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChurchApp/Pods-ChurchApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChurchApp/Pods-ChurchApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB921A3728F55647DBE4CACF5476748 /* Build configuration list for PBXNativeTarget "Pods-ChurchApp-ChurchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236CA4A796142FF557603D83E1C5C2F4 /* Debug */,
+				42C44AD1D4C6F0A68406AE475495BFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43182F484845E1247EBBFD8EE43FBCF8 /* Build configuration list for PBXNativeTarget "Pods-ChurchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B273C041B32C4CB73EB518901DCC501 /* Debug */,
+				0A7EC85B3FEDDB969303ECD2A1B341E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0A80925871C91B9D807A479DC9E1C8 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FBC83DA060410357FD0C30D352B208 /* Debug */,
+				A160472351B46C565056074E8EAAC9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDBD7B4097FA46BD148EEDF72554A0E /* Build configuration list for PBXNativeTarget "QVRWeekView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBCFD8C06E7059A31B07570F7A0EA7A /* Debug */,
+				9BE7D5C773F3977EF934F238B1137794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F3684B9B345412F313FA7A1B31BE66 /* Build configuration list for PBXNativeTarget "Pods-ChurchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3ED23C1B8849884765CF3B3A8C1C00 /* Debug */,
+				E6F5ACED210EC83D44AC80D422359197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

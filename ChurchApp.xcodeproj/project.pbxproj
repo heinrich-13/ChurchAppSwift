@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F233B5D3C88B140567147A /* Pods_ChurchApp_ChurchAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99DA74F3E701C1C5E0AE5EB /* Pods_ChurchApp_ChurchAppUITests.framework */; };
+		567B38D0287591C900BCF449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B38CF287591C900BCF449 /* AppDelegate.swift */; };
+		567B38D2287591C900BCF449 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B38D1287591C900BCF449 /* SceneDelegate.swift */; };
+		567B38D7287591C900BCF449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567B38D5287591C900BCF449 /* Main.storyboard */; };
+		567B38D9287591CD00BCF449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567B38D8287591CD00BCF449 /* Assets.xcassets */; };
+		567B38DC287591CD00BCF449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567B38DA287591CD00BCF449 /* LaunchScreen.storyboard */; };
+		567B38E7287591CD00BCF449 /* ChurchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B38E6287591CD00BCF449 /* ChurchAppTests.swift */; };
+		567B38F1287591CD00BCF449 /* ChurchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B38F0287591CD00BCF449 /* ChurchAppUITests.swift */; };
+		567B38F3287591CD00BCF449 /* ChurchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B38F2287591CD00BCF449 /* ChurchAppUITestsLaunchTests.swift */; };
+		567B39002875A6C300BCF449 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B38FF2875A6C300BCF449 /* homeViewController.swift */; };
+		567B39042876D8B800BCF449 /* eventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B39032876D8B800BCF449 /* eventsViewController.swift */; };
+		5697CA68287C2C12006FF9C1 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CA67287C2C12006FF9C1 /* CalendarCell.swift */; };
+		5697CA6E287C2EA4006FF9C1 /* CalendarEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CA6D287C2EA4006FF9C1 /* CalendarEvents.swift */; };
+		5697CA70287C3B96006FF9C1 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CA6F287C3B96006FF9C1 /* CalendarHelper.swift */; };
+		5697CA72287C5BB8006FF9C1 /* weeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CA71287C5BB8006FF9C1 /* weeklyViewController.swift */; };
+		5697CAB4287D8A20006FF9C1 /* EditEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CAB3287D8A20006FF9C1 /* EditEventViewController.swift */; };
+		5697CAB6287D8C44006FF9C1 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CAB5287D8C44006FF9C1 /* EventCell.swift */; };
+		5697CAB8287D8DC0006FF9C1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697CAB7287D8DC0006FF9C1 /* Event.swift */; };
+		A2CE1D18EAA33ADC9BFC064D /* Pods_ChurchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279B3FAB5670840B6D39C8B3 /* Pods_ChurchApp.framework */; };
+		D1B015EC0379DCE5033085B4 /* Pods_ChurchAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02993D3113D6769DDF0603CF /* Pods_ChurchAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		567B38E3287591CD00BCF449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567B38C4287591C900BCF449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567B38CB287591C900BCF449;
+			remoteInfo = ChurchApp;
+		};
+		567B38ED287591CD00BCF449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567B38C4287591C900BCF449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567B38CB287591C900BCF449;
+			remoteInfo = ChurchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005F0D2317F97DB784336C65 /* Pods-ChurchAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchAppTests.release.xcconfig"; path = "Target Support Files/Pods-ChurchAppTests/Pods-ChurchAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		02993D3113D6769DDF0603CF /* Pods_ChurchAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChurchAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590A334143E0953888F1E00 /* Pods-ChurchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchApp.debug.xcconfig"; path = "Target Support Files/Pods-ChurchApp/Pods-ChurchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		279B3FAB5670840B6D39C8B3 /* Pods_ChurchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChurchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567B38CC287591C900BCF449 /* ChurchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChurchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567B38CF287591C900BCF449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		567B38D1287591C900BCF449 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		567B38D6287591C900BCF449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		567B38D8287591CD00BCF449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567B38DB287591CD00BCF449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		567B38DD287591CD00BCF449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567B38E2287591CD00BCF449 /* ChurchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChurchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567B38E6287591CD00BCF449 /* ChurchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchAppTests.swift; sourceTree = "<group>"; };
+		567B38EC287591CD00BCF449 /* ChurchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChurchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567B38F0287591CD00BCF449 /* ChurchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchAppUITests.swift; sourceTree = "<group>"; };
+		567B38F2287591CD00BCF449 /* ChurchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		567B38FF2875A6C300BCF449 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		567B39032876D8B800BCF449 /* eventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsViewController.swift; sourceTree = "<group>"; };
+		5697CA67287C2C12006FF9C1 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		5697CA6D287C2EA4006FF9C1 /* CalendarEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvents.swift; sourceTree = "<group>"; };
+		5697CA6F287C3B96006FF9C1 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		5697CA71287C5BB8006FF9C1 /* weeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyViewController.swift; sourceTree = "<group>"; };
+		5697CAB3287D8A20006FF9C1 /* EditEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventViewController.swift; sourceTree = "<group>"; };
+		5697CAB5287D8C44006FF9C1 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		5697CAB7287D8DC0006FF9C1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		5F2C0F3B48F244E4CBDB7B14 /* Pods-ChurchApp-ChurchAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchApp-ChurchAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70851FF7C83F4B850FE97004 /* Pods-ChurchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchApp.release.xcconfig"; path = "Target Support Files/Pods-ChurchApp/Pods-ChurchApp.release.xcconfig"; sourceTree = "<group>"; };
+		75B06848C4E2F02F4E071B00 /* Pods-ChurchApp-ChurchAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchApp-ChurchAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C380AFE98A4D0B9960F7DCE2 /* Pods-ChurchAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChurchAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ChurchAppTests/Pods-ChurchAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E99DA74F3E701C1C5E0AE5EB /* Pods_ChurchApp_ChurchAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChurchApp_ChurchAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567B38C9287591C900BCF449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE1D18EAA33ADC9BFC064D /* Pods_ChurchApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567B38DF287591CD00BCF449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B015EC0379DCE5033085B4 /* Pods_ChurchAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567B38E9287591CD00BCF449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F233B5D3C88B140567147A /* Pods_ChurchApp_ChurchAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFDD7E8ED0877B9E3BF5AFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2590A334143E0953888F1E00 /* Pods-ChurchApp.debug.xcconfig */,
+				70851FF7C83F4B850FE97004 /* Pods-ChurchApp.release.xcconfig */,
+				5F2C0F3B48F244E4CBDB7B14 /* Pods-ChurchApp-ChurchAppUITests.debug.xcconfig */,
+				75B06848C4E2F02F4E071B00 /* Pods-ChurchApp-ChurchAppUITests.release.xcconfig */,
+				C380AFE98A4D0B9960F7DCE2 /* Pods-ChurchAppTests.debug.xcconfig */,
+				005F0D2317F97DB784336C65 /* Pods-ChurchAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3014A74170E89AD361E43C40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279B3FAB5670840B6D39C8B3 /* Pods_ChurchApp.framework */,
+				E99DA74F3E701C1C5E0AE5EB /* Pods_ChurchApp_ChurchAppUITests.framework */,
+				02993D3113D6769DDF0603CF /* Pods_ChurchAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		567B38C3287591C900BCF449 = {
+			isa = PBXGroup;
+			children = (
+				567B38CE287591C900BCF449 /* ChurchApp */,
+				567B38E5287591CD00BCF449 /* ChurchAppTests */,
+				567B38EF287591CD00BCF449 /* ChurchAppUITests */,
+				567B38CD287591C900BCF449 /* Products */,
+				2AFDD7E8ED0877B9E3BF5AFE /* Pods */,
+				3014A74170E89AD361E43C40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		567B38CD287591C900BCF449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567B38CC287591C900BCF449 /* ChurchApp.app */,
+				567B38E2287591CD00BCF449 /* ChurchAppTests.xctest */,
+				567B38EC287591CD00BCF449 /* ChurchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567B38CE287591C900BCF449 /* ChurchApp */ = {
+			isa = PBXGroup;
+			children = (
+				567B38CF287591C900BCF449 /* AppDelegate.swift */,
+				567B38D1287591C900BCF449 /* SceneDelegate.swift */,
+				567B38D5287591C900BCF449 /* Main.storyboard */,
+				567B38D8287591CD00BCF449 /* Assets.xcassets */,
+				567B38DA287591CD00BCF449 /* LaunchScreen.storyboard */,
+				567B38DD287591CD00BCF449 /* Info.plist */,
+				567B38FF2875A6C300BCF449 /* homeViewController.swift */,
+				567B39032876D8B800BCF449 /* eventsViewController.swift */,
+				5697CAB3287D8A20006FF9C1 /* EditEventViewController.swift */,
+				5697CA67287C2C12006FF9C1 /* CalendarCell.swift */,
+				5697CA6D287C2EA4006FF9C1 /* CalendarEvents.swift */,
+				5697CA6F287C3B96006FF9C1 /* CalendarHelper.swift */,
+				5697CA71287C5BB8006FF9C1 /* weeklyViewController.swift */,
+				5697CAB5287D8C44006FF9C1 /* EventCell.swift */,
+				5697CAB7287D8DC0006FF9C1 /* Event.swift */,
+			);
+			path = ChurchApp;
+			sourceTree = "<group>";
+		};
+		567B38E5287591CD00BCF449 /* ChurchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				567B38E6287591CD00BCF449 /* ChurchAppTests.swift */,
+			);
+			path = ChurchAppTests;
+			sourceTree = "<group>";
+		};
+		567B38EF287591CD00BCF449 /* ChurchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				567B38F0287591CD00BCF449 /* ChurchAppUITests.swift */,
+				567B38F2287591CD00BCF449 /* ChurchAppUITestsLaunchTests.swift */,
+			);
+			path = ChurchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567B38CB287591C900BCF449 /* ChurchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567B38F6287591CD00BCF449 /* Build configuration list for PBXNativeTarget "ChurchApp" */;
+			buildPhases = (
+				AD7E9FA3E2AFA046334218C8 /* [CP] Check Pods Manifest.lock */,
+				567B38C8287591C900BCF449 /* Sources */,
+				567B38C9287591C900BCF449 /* Frameworks */,
+				567B38CA287591C900BCF449 /* Resources */,
+				A9247E6F68718E4F5CE41250 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChurchApp;
+			productName = ChurchApp;
+			productReference = 567B38CC287591C900BCF449 /* ChurchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		567B38E1287591CD00BCF449 /* ChurchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567B38F9287591CD00BCF449 /* Build configuration list for PBXNativeTarget "ChurchAppTests" */;
+			buildPhases = (
+				10378214690C2952CAC36C2C /* [CP] Check Pods Manifest.lock */,
+				567B38DE287591CD00BCF449 /* Sources */,
+				567B38DF287591CD00BCF449 /* Frameworks */,
+				567B38E0287591CD00BCF449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567B38E4287591CD00BCF449 /* PBXTargetDependency */,
+			);
+			name = ChurchAppTests;
+			productName = ChurchAppTests;
+			productReference = 567B38E2287591CD00BCF449 /* ChurchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		567B38EB287591CD00BCF449 /* ChurchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567B38FC287591CD00BCF449 /* Build configuration list for PBXNativeTarget "ChurchAppUITests" */;
+			buildPhases = (
+				EAEFB861EF511254E3CA6156 /* [CP] Check Pods Manifest.lock */,
+				567B38E8287591CD00BCF449 /* Sources */,
+				567B38E9287591CD00BCF449 /* Frameworks */,
+				567B38EA287591CD00BCF449 /* Resources */,
+				71C0F87C5DC35A1604C58BD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567B38EE287591CD00BCF449 /* PBXTargetDependency */,
+			);
+			name = ChurchAppUITests;
+			productName = ChurchAppUITests;
+			productReference = 567B38EC287591CD00BCF449 /* ChurchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567B38C4287591C900BCF449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					567B38CB287591C900BCF449 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					567B38E1287591CD00BCF449 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 567B38CB287591C900BCF449;
+					};
+					567B38EB287591CD00BCF449 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 567B38CB287591C900BCF449;
+					};
+				};
+			};
+			buildConfigurationList = 567B38C7287591C900BCF449 /* Build configuration list for PBXProject "ChurchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567B38C3287591C900BCF449;
+			productRefGroup = 567B38CD287591C900BCF449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567B38CB287591C900BCF449 /* ChurchApp */,
+				567B38E1287591CD00BCF449 /* ChurchAppTests */,
+				567B38EB287591CD00BCF449 /* ChurchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567B38CA287591C900BCF449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567B38DC287591CD00BCF449 /* LaunchScreen.storyboard in Resources */,
+				567B38D9287591CD00BCF449 /* Assets.xcassets in Resources */,
+				567B38D7287591C900BCF449 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567B38E0287591CD00BCF449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567B38EA287591CD00BCF449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10378214690C2952CAC36C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChurchAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C0F87C5DC35A1604C58BD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChurchApp-ChurchAppUITests/Pods-ChurchApp-ChurchAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9247E6F68718E4F5CE41250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChurchApp/Pods-ChurchApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChurchApp/Pods-ChurchApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChurchApp/Pods-ChurchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7E9FA3E2AFA046334218C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChurchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEFB861EF511254E3CA6156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChurchApp-ChurchAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567B38C8287591C900BCF449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567B39042876D8B800BCF449 /* eventsViewController.swift in Sources */,
+				5697CAB8287D8DC0006FF9C1 /* Event.swift in Sources */,
+				5697CA68287C2C12006FF9C1 /* CalendarCell.swift in Sources */,
+				5697CAB6287D8C44006FF9C1 /* EventCell.swift in Sources */,
+				567B38D0287591C900BCF449 /* AppDelegate.swift in Sources */,
+				567B39002875A6C300BCF449 /* homeViewController.swift in Sources */,
+				5697CA6E287C2EA4006FF9C1 /* CalendarEvents.swift in Sources */,
+				5697CA72287C5BB8006FF9C1 /* weeklyViewController.swift in Sources */,
+				5697CAB4287D8A20006FF9C1 /* EditEventViewController.swift in Sources */,
+				567B38D2287591C900BCF449 /* SceneDelegate.swift in Sources */,
+				5697CA70287C3B96006FF9C1 /* CalendarHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567B38DE287591CD00BCF449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567B38E7287591CD00BCF449 /* ChurchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567B38E8287591CD00BCF449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567B38F1287591CD00BCF449 /* ChurchAppUITests.swift in Sources */,
+				567B38F3287591CD00BCF449 /* ChurchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567B38E4287591CD00BCF449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567B38CB287591C900BCF449 /* ChurchApp */;
+			targetProxy = 567B38E3287591CD00BCF449 /* PBXContainerItemProxy */;
+		};
+		567B38EE287591CD00BCF449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567B38CB287591C900BCF449 /* ChurchApp */;
+			targetProxy = 567B38ED287591CD00BCF449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		567B38D5287591C900BCF449 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567B38D6287591C900BCF449 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		567B38DA287591CD00BCF449 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567B38DB287591CD00BCF449 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		567B38F4287591CD00BCF449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		567B38F5287591CD00BCF449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567B38F7287591CD00BCF449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2590A334143E0953888F1E00 /* Pods-ChurchApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYHLF6X6PZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChurchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HeinrichStoltz13.ChurchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		567B38F8287591CD00BCF449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70851FF7C83F4B850FE97004 /* Pods-ChurchApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYHLF6X6PZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChurchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HeinrichStoltz13.ChurchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		567B38FA287591CD00BCF449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C380AFE98A4D0B9960F7DCE2 /* Pods-ChurchAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HeinrichStoltz13.ChurchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChurchApp.app/ChurchApp";
+			};
+			name = Debug;
+		};
+		567B38FB287591CD00BCF449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005F0D2317F97DB784336C65 /* Pods-ChurchAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HeinrichStoltz13.ChurchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChurchApp.app/ChurchApp";
+			};
+			name = Release;
+		};
+		567B38FD287591CD00BCF449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2C0F3B48F244E4CBDB7B14 /* Pods-ChurchApp-ChurchAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HeinrichStoltz13.ChurchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChurchApp;
+			};
+			name = Debug;
+		};
+		567B38FE287591CD00BCF449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B06848C4E2F02F4E071B00 /* Pods-ChurchApp-ChurchAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HeinrichStoltz13.ChurchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChurchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567B38C7287591C900BCF449 /* Build configuration list for PBXProject "ChurchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567B38F4287591CD00BCF449 /* Debug */,
+				567B38F5287591CD00BCF449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567B38F6287591CD00BCF449 /* Build configuration list for PBXNativeTarget "ChurchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567B38F7287591CD00BCF449 /* Debug */,
+				567B38F8287591CD00BCF449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567B38F9287591CD00BCF449 /* Build configuration list for PBXNativeTarget "ChurchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567B38FA287591CD00BCF449 /* Debug */,
+				567B38FB287591CD00BCF449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567B38FC287591CD00BCF449 /* Build configuration list for PBXNativeTarget "ChurchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567B38FD287591CD00BCF449 /* Debug */,
+				567B38FE287591CD00BCF449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567B38C4287591C900BCF449 /* Project object */;
+}

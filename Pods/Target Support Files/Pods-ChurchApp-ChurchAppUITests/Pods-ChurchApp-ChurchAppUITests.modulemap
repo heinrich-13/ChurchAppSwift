@@ -1,0 +1,6 @@
+framework module Pods_ChurchApp_ChurchAppUITests {
+  umbrella header "Pods-ChurchApp-ChurchAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - FSCalendar (2.8.4)
+  - QVRWeekView (0.14.1)
+
+DEPENDENCIES:
+  - FSCalendar
+  - QVRWeekView
+
+SPEC REPOS:
+  trunk:
+    - FSCalendar
+    - QVRWeekView
+
+SPEC CHECKSUMS:
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  QVRWeekView: 8b68e870e17bd970f44a5a2017e0bd031c825af3
+
+PODFILE CHECKSUM: efc935efcc8e60d01afebfd03675d48123a46d1b
+
+COCOAPODS: 1.11.3
